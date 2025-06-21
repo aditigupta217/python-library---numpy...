@@ -25,12 +25,10 @@ arr = np.array([[1.3,3.32,5.5]])  # float to int
 print(arr.astype(int))
 
 # operators
-
 print(arr + 5)
 print(arr * 7)
 
 # aggregation functions
-
 array = np.array([2,6,42,6,4])
 print(np.sum(array))
 print(np.min(array))
