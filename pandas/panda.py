@@ -26,3 +26,15 @@ print("first 10 rows of dataset")
 print(df.head(10))
 print("last 10 rows of dataset")
 print(df.tail(10)) """
+
+# adding a columns
+data = {
+    "name" : ["ram","sham","adiil","krishn","buddy","niikita"],
+    "number":[2,32,32,424,3,22],
+    "city": ["nagpur","surate","lakhano","agra","narayba","pokimon"],
+    "age" : [3,56,74,32,32,12,]
+}
+df = pd.DataFrame(data)
+print(df)
+df["bonus"] = df['number'] * 0.1
+print(df)
